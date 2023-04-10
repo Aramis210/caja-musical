@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +28,53 @@
 .App-link {
   color: #61dafb;
 }
+
+.App-boton {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+#titulo {
+  text-align: center;
+}
+
+
+#caja {
+  padding: 10px;
+}
+
+#Titulocaja {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+#Titulocaja li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  content: "\266A";
+}
+
+.mensaje-temporal {
+  position: absolute;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(11, 102, 82);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

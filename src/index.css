@@ -5,8 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(https://fad.uncuyo.edu.ar/cache/concierto-cat-ensamble-musica-de-ventanas-abiertas-02_999_750.jpg);
+  background: url('./img/Fondo.jpg');
   background-size: cover;
+  color: white;
 }
 
 code {
